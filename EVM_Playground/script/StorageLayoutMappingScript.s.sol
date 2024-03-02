@@ -1,9 +1,11 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.13;
+
+pragma solidity 0.8.23;
 
 import {Script, console} from "forge-std/Script.sol";
+import {StorageLayoutMapping} from "../src/StorageLayoutMapping.sol";
 
-contract CounterScript is Script {
+contract StorageLayoutMappingScript is Script {
     function setUp() public {}
 
     function run() public {

@@ -1,6 +1,8 @@
 //SPDX-License-Identifier: MIT
+pragma solidity 0.8.23;
+
 contract StorageLayoutMapping {
-    uint256 x = 2;
+    uint256 anyNumber = 2;
     mapping(string => uint256) stringmapping;
 
     function addToStringMapping(string memory key, uint256 value) public {
